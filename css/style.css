@@ -579,4 +579,7 @@ input[type="datetime-local"i] {
     form {
         margin-top: 2rem;
     }
+    ::after, ::before {
+        display: none;  
+    }
 }
