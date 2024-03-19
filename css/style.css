@@ -68,8 +68,10 @@ header figure {
 #hero {
     padding: var(--padding);
     padding-top: 5rem;
+    padding-bottom: 5rem;
     position: relative;
-    max-height: 85vh;
+    height: 85vh;
+    min-height: fit-content;
     overflow: hidden;
     /* background-color: #059669; */
 }
