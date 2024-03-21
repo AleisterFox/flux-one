@@ -156,6 +156,15 @@ p {
     width: 80%;
 }
 
+.loyalty {
+    padding: var(--padding);
+}
+
+.loyalty figure {
+    width: 50%;
+    margin: var(--center);
+}
+
 
 .banner {
     display: flex;
@@ -280,6 +289,7 @@ p {
     margin-bottom: 5rem;
     width: 100rem;
     max-width: 100%;
+    justify-content: center;
 }
 
 #pricing .price {
@@ -380,7 +390,7 @@ p {
     background-color: white;
     padding: 2rem 4rem;
     border-radius: 2rem;
-    height: 25rem !important;
+    height: 30rem !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -403,6 +413,7 @@ p {
 
 .glide__slide p {
     width: 100%;
+    font-size: 1.4rem;
 }
 
 .glide__slide .top p:last-child {
