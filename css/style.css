@@ -405,10 +405,14 @@ p {
 }
 
 .glide__slide .top figure {
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 10rem;
     overflow: hidden;
+}
+
+.glide__slide .top figure {
+    object-fit: contain;
 }
 
 .glide__slide p {
