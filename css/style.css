@@ -98,7 +98,7 @@ span {
 }
 
 #hero .left {
-    flex-basis: 50rem;
+    flex-basis: 40rem;
     flex-grow: 2;
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@ span {
 }
 
 #hero .right {
-    flex-basis: 50rem;
+    flex-basis: 40rem;
     flex-grow: 1;
 }
 
@@ -390,7 +390,7 @@ p {
     background-color: white;
     padding: 2rem 4rem;
     border-radius: 2rem;
-    height: 30rem !important;
+    height: 32rem !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,13 +411,13 @@ p {
     overflow: hidden;
 }
 
-.glide__slide .top figure {
+.glide__slide .top figure img{
     object-fit: contain;
 }
 
 .glide__slide p {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .glide__slide .top p:last-child {
