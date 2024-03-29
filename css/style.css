@@ -560,6 +560,7 @@ input[type="datetime-local"i] {
         width: 40rem;
         height: 40rem;
         right: -33rem;
+        display: none;
     }
 
     h1 {
