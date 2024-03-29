@@ -67,8 +67,8 @@ header figure {
 
 #hero {
     padding: var(--padding);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     position: relative;
     height: 85vh;
     min-height: fit-content;
@@ -250,6 +250,14 @@ p {
     text-align: center;
 }
 
+.price p {
+    font-size: 1.6rem;
+}
+
+.price p i {
+    margin-right: 1rem;
+}
+
 #pricing h2, #process h2 {
     position: relative;
     width: fit-content;
@@ -306,8 +314,8 @@ p {
 }
 
 #pricing .price figure {
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     margin: var(--center);
 }
 
@@ -323,7 +331,7 @@ p {
 
 .price h4 {
     color: #1E272F;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
@@ -331,9 +339,11 @@ p {
     color: #1e272f82;
 }
 
-#pricing>.button {
+#pricing .button {
     background-color: var(--green-secondary);
-    border: 2px solid white;
+    font-size: 1.6rem;
+    width: fit-content;
+    margin: var(--center);
 }
 
 #customers {
