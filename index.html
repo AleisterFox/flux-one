@@ -25,28 +25,10 @@
     </header>
     <main>
 
-      <section id="video">
-        <video controls height="100%">
-                <source src="videos/video-flux.mp4" type="video/mp4">
-                
-            </video>
-
-        <!-- <iframe
-          src="https://www.youtube.com/embed/Ta14fOaG63Y?si=urKXDm-FZNn-Y0Q3"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe> -->
-        <a href="" class="button green">Haz click y agenda una cita</a>
-      </section>
-
       <section id="hero">
         <div class="container">
           <div class="left fadeInLeft wow">
-            <h1>
-              Crea tu propio<span> plan de lealtad</span> 
-            </h1>
+            <h1>Crea tu propio<span> plan de lealtad</span></h1>
             <p>
               Descubre cómo puedes diseñar un plan de fidelización único que se
               adapte a las necesidades de tu negocio y potencie la lealtad de
@@ -55,7 +37,11 @@
             <a href="" class="button green">Agenda tu demo</a>
           </div>
           <div class="right fadeIn wow">
-            <figure><img src="img/header.png" alt="" /></figure>
+            <!-- <figure><img src="img/header.png" alt="" /></figure> -->
+            <video controls>
+              <source src="videos/video-flux.mp4" type="video/mp4" />
+            </video>
+            <a href="" class="button green">Haz click y agenda una cita</a>
           </div>
         </div>
         <figure class="v1 fadeInLeft wow">
@@ -67,7 +53,27 @@
       </section>
 
       <div class="loyalty">
-        <figure><img src="img/loyalty.jpg" alt=""></figure>
+        
+        
+
+
+        <div class="glide" id="loyalty-slider">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <figure><img src="img/fluxcard.png" alt="" /></figure>
+              </li>
+
+              <li class="glide__slide">
+                <figure><img src="img/Fluxcard.gif" alt=""></figure>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+
+
       </div>
 
       <div class="banner">
@@ -102,35 +108,21 @@
         <h2>Eleva tu presencia en el <span>mundo digital</span></h2>
         <p>Conoce los paquetes de flux</p>
         <div class="container">
-          <!-- <div class="price">
-            <figure><img src="img/logo.png" alt="" /></figure>
-            <p class="price-title">STARTER</p>
-            <p class="plan-description">0 - 200 Interacciones</p>
-            <h4>$799 <span>Mensual</span></h4>
-            <a href="" class="button green">Seleccionar</a>
-          </div>
-
-          <div class="price">
-            <figure><img src="img/logo.png" alt="" /></figure>
-            <p class="price-title">STARTER</p>
-            <p class="plan-description">0 - 200 Interacciones</p>
-            <h4>$799 <span>Mensual</span></h4>
-            <a href="" class="button green">Seleccionar</a>
-          </div> -->
 
           <div class="price">
             <figure><img src="img/logo.png" alt="" /></figure>
             <p class="price-title">STARTER</p>
             <p class="plan-description">0 - 200 Interacciones</p>
             <h4>$299 <span>Prueba de 15 dias</span></h4>
-            <p><i class="fas fa-check"></i>Directorio</p>
-            <p><i class="fas fa-check"></i>Sistema de lealtad</p>
-            <p><i class="fas fa-check"></i>Posicionamiento Local</p>
-            <p><i class="fas fa-check"></i>3 días hábiles para soporte</p>
+            <ul>
+              <li>Directorio</li>
+              <li>Sistema de lealtad</li>
+              <li>Posicionamiento Local</li>
+              <li>3 días hábiles para soporte</li>
+            </ul>
             <a href="" class="button green">Agenda una videollamada</a>
           </div>
         </div>
-        <!-- <a href="" class="button green">Agenda tu demo</a> -->
         <figure>
           <img src="img/prices.png" alt="" />
         </figure>
@@ -155,7 +147,10 @@
                     </div>
                   </div>
                   <p>
-                    Tenemos tres sucursales de venta de accesorios y cosméticos. Me ayudaron a que tengamos mejor presencia en Google con más reseñas, y de igual manera me están ayudando a crear planes de lealtad para mis clientes.
+                    Tenemos tres sucursales de venta de accesorios y cosméticos.
+                    Me ayudaron a que tengamos mejor presencia en Google con más
+                    reseñas, y de igual manera me están ayudando a crear planes
+                    de lealtad para mis clientes.
                   </p>
                 </li>
 
@@ -170,8 +165,13 @@
                     </div>
                   </div>
                   <p>
-                    Hemos visto un aumento significativo en nuestra presencia en Google, gracias a la generación de más reseñas positivas de nuestros clientes satisfechos. Diseñan programas que no solo premian la fidelidad, sino que también hacen que nuestros clientes se sientan valorados y apreciados. ¡Estamos encantados con su atención al cliente y su innovación en estrategias de marketing!
-
+                    Hemos visto un aumento significativo en nuestra presencia en
+                    Google, gracias a la generación de más reseñas positivas de
+                    nuestros clientes satisfechos. Diseñan programas que no solo
+                    premian la fidelidad, sino que también hacen que nuestros
+                    clientes se sientan valorados y apreciados. ¡Estamos
+                    encantados con su atención al cliente y su innovación en
+                    estrategias de marketing!
                   </p>
                 </li>
 
@@ -186,7 +186,14 @@
                     </div>
                   </div>
                   <p>
-                    Gracias a Flux, nuestro pub ha dado un gran salto en su presencia en línea. Con más reseñas, ahora somos una opción destacada para los amantes de la gastronomía. Lo que realmente nos emociona es su enfoque en crear planes de lealtad que hacen que nuestros clientes se sientan como en casa. Cada visita se convierte en una experiencia memorable, y estamos emocionados de seguir colaborando con FluxSales para ofrecer lo mejor a nuestros comensales.
+                    Gracias a Flux, nuestro pub ha dado un gran salto en su
+                    presencia en línea. Con más reseñas, ahora somos una opción
+                    destacada para los amantes de la gastronomía. Lo que
+                    realmente nos emociona es su enfoque en crear planes de
+                    lealtad que hacen que nuestros clientes se sientan como en
+                    casa. Cada visita se convierte en una experiencia memorable,
+                    y estamos emocionados de seguir colaborando con FluxSales
+                    para ofrecer lo mejor a nuestros comensales.
                   </p>
                 </li>
 
@@ -201,26 +208,16 @@
                     </div>
                   </div>
                   <p>
-                    Gracias a FluxSales, nuestra cafetería de café de especialidad se ha convertido en un punto de referencia en Google. Con más reseñas positivas, atraemos a más amantes del café. Y gracias a sus planes de lealtad, nuestros clientes se sienten como en casa. ¡Estamos emocionados de seguir creciendo juntos!
+                    Gracias a FluxSales, nuestra cafetería de café de
+                    especialidad se ha convertido en un punto de referencia en
+                    Google. Con más reseñas positivas, atraemos a más amantes
+                    del café. Y gracias a sus planes de lealtad, nuestros
+                    clientes se sienten como en casa. ¡Estamos emocionados de
+                    seguir creciendo juntos!
                   </p>
                 </li>
               </ul>
             </div>
-
-            <!-- <div class="glide__arrows" data-glide-el="controls">
-              <button
-                class="glide__arrow glide__arrow--left"
-                data-glide-dir="<"
-              >
-                <i class="fa-solid fa-chevron-left"></i>
-              </button>
-              <button
-                class="glide__arrow glide__arrow--right"
-                data-glide-dir=">"
-              >
-                <i class="fa-solid fa-chevron-right"></i>
-              </button>
-            </div> -->
 
             <div class="glide__bullets" data-glide-el="controls[nav]">
               <button class="glide__bullet" data-glide-dir="=0"></button>
@@ -241,10 +238,14 @@
                 <p>1</p>
               </div>
               <div class="right">
-                <p><strong>Step 1</strong></p>
                 <p>
-                  Agenda una demo en línea para el análisis inicial <br>
-                  Reserva una demostración en línea con nuestro equipo para discutir tus necesidades y objetivos específicos.
+                  <strong
+                    >Agenda una demo en línea para el análisis inicial</strong
+                  >
+                </p>
+                <p>
+                  Reserva una demostración en línea con nuestro equipo para
+                  discutir tus necesidades y objetivos específicos.
                 </p>
               </div>
             </div>
@@ -253,10 +254,10 @@
                 <p>2</p>
               </div>
               <div class="right">
-                <p><strong>Step 2</strong></p>
+                <p><strong>Configuración personalizada</strong></p>
                 <p>
-                  Configuración personalizada <br>
-                  Adaptamos la plataforma a las necesidades específicas de tu negocio, ofreciendo opciones flexibles y personalizables.
+                  Adaptamos la plataforma a las necesidades específicas de tu
+                  negocio, ofreciendo opciones flexibles y personalizables.
                 </p>
               </div>
             </div>
@@ -265,17 +266,19 @@
                 <p>3</p>
               </div>
               <div class="right">
-                <p><strong>Step 3</strong></p>
+                <p><strong>Empieza a retener a tus clientes</strong></p>
                 <p>
-                  Empieza a retener a tus clientes: <br>
-                  Una vez completada la configuración, podrás comenzar a utilizar nuestra plataforma para fidelizar a tus clientes y aumentar su lealtad hacia tu negocio.
+                  Una vez completada la configuración, podrás comenzar a
+                  utilizar nuestra plataforma para fidelizar a tus clientes y
+                  aumentar su lealtad hacia tu negocio.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="contact">
+
+      <!-- <section id="contact">
         <div class="container">
           <h2>Agenda tu demo hoy y comienza a ganar en el mundo digital.</h2>
           <form action="">
@@ -303,34 +306,10 @@
             </div>
           </form>
         </div>
-      </section>
-
-      <!-- <section id="agendar">
-
-        <div id="calendly-embed" style="min-width: 320px; height: 700px"></div>
-
-        <script
-          type="text/javascript"
-          src="https://assets.calendly.com/assets/external/widget.js"
-        ></script>
-
-        <script>
-          Calendly.initInlineWidget({
-            url: "https://calendly.com/YOU",
-            parentElement: document.getElementById("calendly-embed"),
-            prefill: {
-              name: "John Doe",
-              email: "john@doe2.com"
-              customAnswers: {
-                a1: "Yes",
-                a2: "At the Starbucks on 3rd and 16th"
-              }
-
-            },
-            utm: {}
-          });
-        </script>
       </section> -->
+
+      <div data-tf-live="01HT5X8CK78M0WHM3F8JYGJ9J7"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
     </main>
     <script src="js/glide.min.js"></script>
     <script src="js/script.js"></script>
@@ -350,8 +329,15 @@
         },
       });
 
-      testimonials.mount();
-    </script>
+      var loyalty = new Glide("#loyalty-slider", {
+        type: "carousel",
+        autoplay: 5500,
+        hoverpause: true,
+        perView: 1,
+      }); 
 
+      testimonials.mount();
+      loyalty.mount();
+    </script>
   </body>
 </html>
