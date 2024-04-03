@@ -606,9 +606,7 @@ input[type="datetime-local"i] {
         margin-top: 2.5rem;
     }
 
-    #hero .right {
-        display: none;
-    }
+    
 
     #video video, #video iframe {
         border-radius: 0;
