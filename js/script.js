@@ -8,7 +8,7 @@ counters.forEach((counter) => {
     const increment = target / 200; // Velocidad de incremento
 
     if (count < target) {
-        let counting = Math.ceil(count + increment);
+      let counting = Math.ceil(count + increment);
       counter.innerText = counting;
       setTimeout(updateCount, 25); // Actualizar el contador cada 10ms
     } else {
@@ -26,3 +26,22 @@ counters.forEach((counter) => {
 
   observer.observe(counter);
 });
+
+const modalButtons = document.querySelectorAll(".modal");
+const modal = document.getElementById("typeform-form");
+const closeModal = document.querySelector('.close');
+
+modalButtons.forEach((modalButton) => {
+  modalButton.addEventListener("click", () => {
+    if (modal.style.display != "block") {
+      modal.style.display = "block";
+      document.documentElement.style.overflowY = "hidden";
+    }
+  });
+});
+
+
+closeModal.addEventListener('click', () => {
+  modal.style.display = 'none';
+  document.documentElement.style.overflowY = "scroll";
+} );
